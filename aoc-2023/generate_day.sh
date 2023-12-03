@@ -13,7 +13,7 @@ MOD_FILE="src/day$1"/mod.rs
 cp boilerplate_code.txt $MOD_FILE
 
 INPUT_FILE="src/day$1"/input.txt
-INPUT_LINK="https://adventofcode.com/2020/day/$1/input"
+INPUT_LINK="https://adventofcode.com/2023/day/$1/input"
 echo $INPUT_LINK
 curl --cookie "session=$(cat .session)" $INPUT_LINK > $INPUT_FILE
 
